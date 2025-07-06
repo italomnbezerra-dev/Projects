@@ -15,8 +15,8 @@ else:
         print('A solução possui apenas uma solução real')
         numX1 = (- numB + numDelta ** (1/2)) / (2 * numA)
         numX2 = (- numB - numDelta ** (1/2)) / (2 * numA)
-        print(f'O X1 é igual à', int(numX1), 'e o X2 é igual à', int(numX2))
+        print(f'X1 é igual à', int(numX1), 'e o X2 é igual à', int(numX2))
     else:
         numX1 = (- numB + numDelta ** (1/2)) / (2 * numA)
         numX2 = (- numB - numDelta ** (1/2)) / (2 * numA)
-        print(f'O X1 é igual à', int(numX1), 'e o X2 é igual à', int(numX2))
+        print(f'X1 é igual à', int(numX1), 'e o X2 é igual à', int(numX2))
